@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+  
+}
+
+.container-form {
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 1);
+    height: 500px;
+    max-width: 245px;
+    margin: 10px;
+    border: solid thin red;
+}
+.information {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #000000;
+    border-radius: 10px;
+    border-bottom: 10px;
+}
+.info-childs {
+    width: 100%;
+    padding: 0 35px;
+}
+.info-childs h2 {
+    border: 2px solid;
+    page-break-inside: auto;
+    font-size: 20px;
+    margin: 10px;
+    color: red;
+}
+.info-childs p {
+    border-radius: 20px;
+    margin: 15px 0;
+    font-size: 0.8rem;
+    color: #ffffff; 
+}
+.btn-primary {
+    /* Estilos para el primer botón */
+    width: 200px; /* Ancho del botón */
+    height: 40px; /* Alto del botón */
+    background-color: hsl(34, 83%, 47%);
+    outline: none;
+    border: solid 2px #333;
+    border-radius: 10px;
+    color: hwb(240 96% 3%);
+    font-size: 16px;
+    cursor: pointer;
+    padding: 1px 1px;
+    margin-bottom: 05px;
+    margin-left: -10px;
+    
+}
+
+.btn-secondary {
+    
+    /* Estilos para el segundo botón */
+    width: 185px; /* Ancho del botón */
+    height: 35px; /* Alto del botón */
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 05px;
+    line-height: 20px;
+    text-align-last: start;
+} 
+.search-container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 180px;
+    left: 450px;
+    width: 100px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.search-container form {
+    display: flex;
+}
+
+.search-container input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #222020;
+    margin-right: 5px;
+}
+
+.search-container button {
+    padding: 8px 15px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 0%);
+    border: none;
+    border-radius: 4px;
+    border: 3px solid #222020;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-container button:hover {
+    background-color: hsl(180, 3%, 6%);
+}
