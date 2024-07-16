@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react';   //se importan los archivos necesarios 
 import LogoAmor from "../images/logo.png"; 
 import Avatar from "../images/image-avatar.png";
 import MenuIcon from "../icons/MenuIcon";
@@ -62,3 +62,7 @@ const MainHeader = () => {
     )
 }
 export default MainHeader;
+
+
+
+

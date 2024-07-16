@@ -16,15 +16,17 @@ const Acceso = () => {
   };
 
   return (
-    <div className="container-form">
-      <div className="information">
-        <div className="info-childs">
-          <h2>El amor complace</h2>
-          <p>Verificación de edad. Este sitio web contiene material restringido a menores de edad, que incluye desnudez y representaciones explícitas de actividad sexual. Al entrar, afirma que tiene por lo menos 18 años de edad o la mayoría de edad en la jurisdicción desde que está accediendo al sitio web y que da consentimiento en ver contenido explícito.</p>
-          {/* Botón para acceder */}
-          <button className="btn-primary" onClick={handleEntrarClick}>Tengo 18 años - Entrar</button>
-          {/* Botón para salir */}
-          <input type="button" className="btn-secondary" value="No tengo 18 años - Salir" onClick={handleSalirClick} />
+    <div className="access-page">
+      <div className="container-form">
+        <div className="information">
+          <div className="info-childs">
+            <h2>El amor complace</h2>
+            <p>Verificación de edad. Este sitio web contiene material restringido a menores de edad, que incluye desnudez y representaciones explícitas de actividad sexual. Al entrar, afirma que tiene por lo menos 18 años de edad o la mayoría de edad en la jurisdicción desde que está accediendo al sitio web y que da consentimiento en ver contenido explícito.</p>
+            {/* Botón para acceder */}
+            <button className="btn-primary" onClick={handleEntrarClick}>Tengo 18 años - Entrar</button>
+            {/* Botón para salir */}
+            <input type="button" className="btn-secondary" value="No tengo 18 años - Salir" onClick={handleSalirClick} />
+          </div>
         </div>
       </div>
     </div>
@@ -32,5 +34,3 @@ const Acceso = () => {
 };
 
 export default Acceso;
-
-
